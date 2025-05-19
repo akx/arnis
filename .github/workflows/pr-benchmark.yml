@@ -2,9 +2,9 @@ name: PR Benchmark
 
 on:
   pull_request:
-    types: [opened, reopened]
+    types: [ opened, reopened, synchronize ]
   issue_comment:
-    types: [created]
+    types: [ created ]
 
 jobs:
   benchmark:
